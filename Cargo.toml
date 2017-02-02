@@ -1,0 +1,16 @@
+[package]
+name = "backtracking"
+version = "0.1.0"
+authors = ["Til Blechschmidt <til@blechschmidt.de>"]
+
+[[bin]]
+path = "src/main.rs"
+name = "main"
+
+[[bin]]
+path = "src/chess.rs"
+name = "chess"
+
+[dependencies]
+rand = "0.3.14"
+term-painter = "0.2.1"
